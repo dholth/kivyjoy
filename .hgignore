@@ -1,0 +1,15 @@
+syntax:glob
+*~
+.*
+*.c
+*.o
+*.orig
+*.pyc
+*.so
+*.*-info
+build
+dist
+__pycache__
+docs/_build
+kivyjoy-*
+setup-requires
