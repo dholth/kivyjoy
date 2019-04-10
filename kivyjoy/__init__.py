@@ -3139,6 +3139,7 @@ class Event(Struct):
     @padding.setter
     def padding(self, value):
         self.cdata.padding = value
+    unwrapEvent = unwrapEvent
     peepEvents = peepEvents
     pollEvent = pollEvent
     pushEvent = pushEvent
